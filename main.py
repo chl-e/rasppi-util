@@ -12,7 +12,6 @@ functions = {
     '4': logging
 }
 
-
 def main():
     n = 1
     availablefns = [
@@ -22,7 +21,6 @@ def main():
     for x in range(len(availablefns)):
         print(f"{n}. {availablefns[x]}")
         n += 1
-
     fns = [""]
     for fn in fns:
         a = str(input("\n>> "))
@@ -36,7 +34,6 @@ def main():
 
 
 try:
-    main()
-    
+    main() 
 except Exception as e:
     print(e)
